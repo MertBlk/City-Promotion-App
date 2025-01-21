@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "665595863511",
+    "firebase_url": "https://odev2321-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "odev2321",
+    "storage_bucket": "odev2321.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665595863511:android:7bd606239a6d9e94106b92",
+        "android_client_info": {
+          "package_name": "com.example.a23210202036"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA3iIiNqXwAuyNKhLtjo7_XZy8Xs7ZMT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665595863511:android:77f5e76de344a357106b92",
+        "android_client_info": {
+          "package_name": "com.example.odev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA3iIiNqXwAuyNKhLtjo7_XZy8Xs7ZMT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

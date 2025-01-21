@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <!-- Slider -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Bursa tanıtım yazısı -->
+        <TextView
+            android:id="@+id/textViewExample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Bursa, Türkiye'nin kuzeybatısında yer alan, tarihi ve kültürel zenginlikleriyle ünlü bir şehirdir. Uludağ, kaplıcaları ve Osmanlı İmparatorluğu'na başkentlik yapmış geçmişiyle dikkat çeker. Hem modern hem de tarihi dokusuyla ziyaretçilerine eşsiz bir deneyim sunar."
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic" /> <!-- Araya boşluk ekledik -->
+
+        <!-- İlçe Listesi Başlığı -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="İlçelerimiz"
+            android:textSize="24sp"
+            android:textStyle="bold" /> <!-- Araya boşluk ekledik -->
+
+        <!-- İlçe Listesi RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/districtRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp" /> <!-- Araya boşluk ekledik -->
+
+        <!-- Turistik Yerler Butonu -->
+        <Button
+            android:id="@+id/goToTouristSitesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="16dp"
+            android:background="#4CAF50"
+            android:padding="10dp"
+            android:text="İlçelerin Turistik Yerlerini Göster"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" /> <!-- Araya boşluk ekledik -->
+
+        <!-- Admin Sayfasına Git Butonu -->
+        <Button
+            android:id="@+id/goToAdminButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:background="#4CAF50"
+            android:text="Admin Sayfasına Git"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
